@@ -1,0 +1,41 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# dependency #
+/node_modules
+
+# output #
+/dist
+/tmp
+/out-tsc
+
+# IDEs #
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# os #
+.DS_Store
+Thumbs.db
+
+# other #
+/e2e
+/.angular
+/kendo-ui-license.txt
+
+*.log
+
+# file block #
+package-lock.json
+yarn.lock
+
+# tsconfig.json
+# tsconfig.app.json
+# tsconfig.spec.json
+
+# tslint.json
+
+
